@@ -2,3 +2,4 @@ env
 *.html
 *.names
 *.lisp
+emission_data
