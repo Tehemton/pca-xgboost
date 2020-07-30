@@ -111,9 +111,9 @@ rmse = sqrt(mean_squared_error(Ytest, ypred))
 print(rmse)
 #!the model was trained by taking 6, 8 and 10 components
 #!the best RMSE of 12.31 was observed with 10 components
-#! * components gave an RMSE of 12.43
+#! 8 components gave an RMSE of 12.43
 
-print(model.get_booster().get_fscore())
+# print(model.get_booster().get_fscore())
 
 
 # fig = px.line(Ytest,  title='Ytest')
